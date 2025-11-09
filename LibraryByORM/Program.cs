@@ -95,8 +95,7 @@
                     Console.WriteLine($"ID: {s.id,-3} | Name: {s.Staffname,-15} | Position: {s.position}");
                 }
 
-                // عرض المعاملات
-                Console.WriteLine("\n🔄 Transactions");
+                Console.WriteLine("\n Transactions");
                 Console.WriteLine("-----------------------------------------------------------------------------------");
                 Console.WriteLine($"{"ID",-3} {"Book",-15} {"Member",-15} {"Staff",-15} {"Branch",-15} {"Fine",-5}");
                 Console.WriteLine("-----------------------------------------------------------------------------------");
@@ -118,7 +117,7 @@
                     Console.WriteLine($"{t.id,-3} {t.BookTitle,-15} {t.MemberName,-15} {t.StaffName,-15} {t.BranchName,-15} {t.fineAmount,-5}");
                 }
 
-                Console.WriteLine("\n✅ Display completed successfully.");
+                Console.WriteLine("\n Display completed successfully.");
 
             }
         }
